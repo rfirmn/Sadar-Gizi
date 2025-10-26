@@ -49,7 +49,7 @@ SadarGizi hadir dengan berbagai fitur utama yang mendukung pola makan sehat peng
 
 ---
 
-## TIM
+## 👥 TIM
 
 Proyek ini dikembangkan sebagai bagian dari **Dicoding Bootcamp - Capstone Project**.
 
