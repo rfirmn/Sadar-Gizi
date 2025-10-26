@@ -55,10 +55,9 @@ Proyek ini dikembangkan sebagai bagian dari **Dicoding Bootcamp - Capstone Proje
 
 | Nama Anggota              | Learning Path                             |
 | ------------------------- | ----------------------------------------- |
+| Aisyah Ridhalillah Putri  | Flutter                                   |
+| Rio Firman Raharja        | Machine Learning                          |
 | Amirah Saleh M Alhumaidhi | Machine Learning                          |
 | Dije Naufal Atsiilah      | Machine Learning                          |
-| Rio Firman Raharja        | Machine Learning                          |
-| Aisyah Ridhalillah Putri  | Flutter                                   |
-
 
 > Dikembangkan oleh Tim **DB8-PG007** sebagai bagian dari **Dicoding Capstone Project** — 2025.
