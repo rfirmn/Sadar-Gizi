@@ -32,13 +32,40 @@ Bukan VSCode menjalankan di emulator/simulator:
 flutter run
 ```
 
+### 4. Build APK (Android)
+
+```bash
+# Debug APK
+flutter build apk --debug
+
+# Release APK
+flutter build apk --release
+
+# Split APK per ABI (ukuran lebih kecil)
+flutter build apk --split-per-abi
+```
+
+File APK akan tersedia di: `build/app/outputs/flutter-apk/`
+
+### 5. Build App Bundle (Android - untuk Play Store)
+
+```bash
+flutter build appbundle --release
+```
+
+### 6. Build iOS
+
+```bash
+flutter build ios --release
+```
+
 Untuk menjalankan di device spesifik:
 
 ```bash
 flutter devices  # Lihat daftar device yang tersedia
 flutter run -d <device_id>
 ```
-### 4. Cara Mencoba Aplikasi
+### 7. Cara Mencoba Aplikasi
 
 Setelah mekalakukan jalankan aplikasi via device android
 
@@ -85,19 +112,3 @@ Setelah mekalakukan jalankan aplikasi via device android
 - **Scan**: Untuk scaning nutrisionfact untuk mengetahui nutrisinya
 - **FunFact**: Halaman untuk membaca funfact dunia kesehatan
 - **Profile/Settings**: Halaman untuk mengubah data diri anda dan logout
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
