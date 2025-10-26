@@ -186,19 +186,34 @@ class _ProductListScreenState extends State<ProductListScreen> {
                                               },
                                             ),
                                             IconButton(
-                                              icon: const Icon(Icons.check_circle,
-                                                  color: Colors.green),
+                                              icon: const Icon(Icons.check_circle, color: Colors.green),
                                               onPressed: () async {
-                                                final provider = Provider.of<ConsumedProductProvider>(context, listen: false);
-                                                await provider.moveProductToConsumed(
+                                                final consumedProvider = Provider.of<ConsumedProductProvider>(
+                                                    context, 
+                                                    listen: false
+                                                );
+                                                final productProvider = Provider.of<ProductProvider>(
+                                                    context, 
+                                                    listen: false
+                                                );
+                                                
+                                                // Pindahkan produk ke consumed
+                                                await consumedProvider.moveProductToConsumed(
                                                   product,
                                                   onMoved: () {
-                                                    // hapus dari list lokal ProductListScreen supaya langsung hilang
+                                                    // Hapus dari list lokal
                                                     setState(() {
-                                                      Provider.of<ProductProvider>(context, listen: false)
-                                                          .products
-                                                          .removeWhere((p) => p.id == product.id);
+                                                      productProvider.products.removeWhere((p) => p.id == product.id);
                                                     });
+                                                    
+                                                    // Tampilkan snackbar konfirmasi
+                                                    ScaffoldMessenger.of(context).showSnackBar(
+                                                      SnackBar(
+                                                        content: Text('Produk berhasil ditandai sebagai dikonsumsi'),
+                                                        backgroundColor: Colors.green,
+                                                        duration: Duration(seconds: 2),
+                                                      ),
+                                                    );
                                                   },
                                                 );
                                               },
