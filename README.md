@@ -1,6 +1,6 @@
 # SadarGizi: Sistem Labeling Kadar Gula dan Tracking Nutrisi Harian
 
-> untuk mengak
+> untuk mengakses aplikasi silahkan mengakses folder `Sadar_gizi`
 
 ## Tentang SadarGizi
 
