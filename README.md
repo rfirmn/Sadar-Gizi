@@ -44,7 +44,7 @@ SadarGizi hadir dengan berbagai fitur utama yang mendukung pola makan sehat peng
 | Komponen Teknologi   | Keterangan                                                                                 |
 | -------------------- | ------------------------------------------------------------------------------------------ |
 | **Frontend**         | Flutter (Dart) — Pengembangan aplikasi mobile lintas platform (Android & iOS).             |
-| **Machine Learning** | Python, TensorFlow Lite — Model OCR dan klasifikasi nutrisi.                               |
+| **Machine Learning** | Python, TensorFlow Lite — Model OCR dan deteksi objek nutrisi.                             |
 | **Backend & Cloud**  | Firebase — Autentikasi pengguna, penyimpanan data, hosting, dan layanan push notification. |
 
 ---
