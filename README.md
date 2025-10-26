@@ -53,7 +53,7 @@ SadarGizi hadir dengan berbagai fitur utama yang mendukung pola makan sehat peng
 
 Proyek ini dikembangkan sebagai bagian dari **Dicoding Bootcamp - Capstone Project**.
 
-| Nama Anggota              | Peran Utama                               |
+| Nama Anggota              | Learning Path                             |
 | ------------------------- | ----------------------------------------- |
 | Amirah Saleh M Alhumaidhi | Machine Learning                          |
 | Dije Naufal Atsiilah      | Machine Learning                          |
