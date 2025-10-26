@@ -1,5 +1,7 @@
 # SadarGizi: Sistem Labeling Kadar Gula dan Tracking Nutrisi Harian
 
+> untuk mengak
+
 ## Tentang SadarGizi
 
 SadarGizi adalah aplikasi inovatif yang dirancang untuk mengatasi meningkatnya kasus diabetes di Indonesia akibat konsumsi makanan kemasan tinggi gula. Aplikasi ini membantu pengguna menjadi konsumen yang lebih cerdas dan sadar akan nutrisi harian mereka.
